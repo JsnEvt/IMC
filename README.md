@@ -25,4 +25,34 @@ O objetivo é criar uma aplicação simples para calcular o **Índice de Massa C
 
 ---
 
+## Interface
+<p align="center">
+   <img src="./img/inicio.png" alt="calc" width="400">
+</p>
+
+<p align="center">
+   <img src="./img/erro.png" alt="calc" width="400">
+</p>
+
+<p align="center">
+   <img src="./img/ok.png" alt="calc" width="400">
+</p>
+
+
+## Como executar
+1. Clone o repositório
+  ```bash
+  git clone https://github.com/JsnEvt/IMC.git
+  ```
+
+2. Acesse a psata
+  ```bash
+  cd IMC
+  ```
+   
+3. Abra o arquivo index.html
+
+## Licença
+Projeto para fins educacionais
+
 
