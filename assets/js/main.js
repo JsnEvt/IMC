@@ -2,7 +2,7 @@
 
 const form = document.querySelector('#formulario')
 
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', function (e) {
     e.preventDefault()
     const inputPeso = e.target.querySelector('#peso')
     const inputAltura = e.target.querySelector('#altura')
@@ -11,18 +11,18 @@ form.addEventListener('submit', function(e) {
     const altura = Number(inputAltura.value)
 
     if (!peso) {
-        setResultado('Peso invalido', false)
+        setResultado('Peso inválido', false)
         return
     }
     if (!altura) {
-        setResultado('Altura invalida', false)
+        setResultado('Altura inválida', false)
         return
     }
 
     const imc = getImc(peso, altura)
     const nivelImc = getNivelImc(imc)
 
-    const msg = `Seu IMC e ${imc} (${nivelImc}).`
+    const msg = `Seu IMC é ${imc} (${nivelImc}).`
     setResultado(msg, true)
 })
 
